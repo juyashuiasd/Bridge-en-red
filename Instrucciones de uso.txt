@@ -1,0 +1,13 @@
+Para comenzar a jugar hay que ejecutar dos archivos.
+
+En primer lugar hay que ejecutar servidor.py. Funciona tanto en windows como debian con la versión de Python3.
+
+Cuando el servidor esté operativo, deberá ejecutarse cliente.py. Para que comience el juego deben
+unirse 4 clientes. Se necesita python3 y la librería tkinter instalada.
+
+Si se juega en localhost, la IP que utilizarán tanto servidor como cliente será la 127.0.0.1. Si se
+desea utilizar un servidor que conecte a diferentes ordenadores, será la ip pública. Por lo tanto en 
+servidor.py y cliente.py habría que cambiar la IP asignada.
+
+
+
